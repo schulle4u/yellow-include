@@ -2,7 +2,7 @@
 
 # Include 0.9.1
 
-Seiteninhalt von geteilten Seiten einbinden.
+Inhalt von geteilten Seiten einbinden.
 
 <p align="center"><img src="SCREENSHOT.png" alt="Bildschirmfoto"></p>
 
@@ -19,7 +19,6 @@ Die folgenden Argumente sind verfügbar, mit Ausnahme des ersten Arguments sind 
 `Slug` = URL-Slug der einzubindenden Seite  
 `Style` = Anzeigestil der geteilten Seite`  
 
-
 ## Beispiele
 
 Hier ist eine Beispielseite `content/shared/profile-datenstrom.md`: 
@@ -27,6 +26,7 @@ Hier ist eine Beispielseite `content/shared/profile-datenstrom.md`:
 ```
 ---
 Title: Über Datenstrom
+TitleSlug: profile-datenstrom
 ---
 Datenstrom ist ein Technologiehersteller aus Schweden. [Mehr erfahren](https://datenstrom.se). 
 ```

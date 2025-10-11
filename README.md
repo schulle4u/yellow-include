@@ -2,7 +2,7 @@
 
 # Include 0.9.1
 
-Include page content from shared pages. 
+Include content from shared pages. 
 
 <p align="center"><img src="SCREENSHOT.png" alt="Screenshot"></p>
 
@@ -26,6 +26,7 @@ Here is an example page `content/shared/profile-datenstrom.md`:
 ```
 ---
 Title: About Datenstrom
+TitleSlug: profile-datenstrom
 ---
 Datenstrom is a technology manufacturer from Sweden. [Learn more](https://datenstrom.se). 
 ```

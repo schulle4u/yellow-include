@@ -25,9 +25,10 @@ Here is an example page `content/shared/profile-datenstrom.md`:
 
 ```
 ---
-Title: About Datenstrom
-TitleSlug: profile-datenstrom
+Title: profile-datenstrom
 ---
+## About Datenstrom
+
 Datenstrom is a technology manufacturer from Sweden. [Learn more](https://datenstrom.se). 
 ```
 

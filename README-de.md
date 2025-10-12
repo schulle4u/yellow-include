@@ -25,9 +25,10 @@ Hier ist eine Beispielseite `content/shared/profile-datenstrom.md`:
 
 ```
 ---
-Title: Über Datenstrom
-TitleSlug: profile-datenstrom
+Title: profile-datenstrom
 ---
+## Über Datenstrom
+
 Datenstrom ist ein Technologiehersteller aus Schweden. [Mehr erfahren](https://datenstrom.se). 
 ```
 

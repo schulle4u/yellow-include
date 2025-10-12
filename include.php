@@ -19,7 +19,6 @@ class YellowInclude {
             $output .= "<div class=\"".htmlspecialchars($style)."\">\n";
             $page = $this->yellow->page->getPage($slug);
             if ($page) {
-                $output .= "<h2>".$page->getHtml("titleContent")."</h2>\n";
                 $output .= $page->getContentHtml();
             } else {
                 $this->yellow->page->error(500, "Shared page '$slug' does not exist!");

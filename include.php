@@ -17,8 +17,7 @@ class YellowInclude {
             list($slug, $style) = $this->yellow->toolbox->getTextArguments($text);
             if (is_string_empty($style)) $style = $name;
             $output .= "<div class=\"".htmlspecialchars($style)."\">\n";
-            $page = $this->yellow->page->getPage($slug);
-            $output .= $page->getContentHtml();
+            $output .= $this->yellow->page->getPage($slug)->getContentHtml();
             $output .= "</div>\n";
         }
         return $output;

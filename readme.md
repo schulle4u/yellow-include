@@ -1,8 +1,6 @@
-<p align="right"><a href="readme-de.md">Deutsch</a> &nbsp; <a href="readme.md">English</a></p>
-
 # Include 0.9.1
 
-Include content from shared pages. 
+Include content from shared pages. Developed by Steffen Schultz.
 
 <p align="center"><img src="screenshot.png" alt="Screenshot"></p>
 
@@ -49,6 +47,4 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 [include profile-datenstrom]
 ```
 
-## Developer
-
-Steffen Schultz. [Get help](https://datenstrom.se/yellow/help/).
+Do you have questions? [Get help](https://datenstrom.se/yellow/help/).

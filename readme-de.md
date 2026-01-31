@@ -1,8 +1,6 @@
-<p align="right"><a href="readme-de.md">Deutsch</a> &nbsp; <a href="readme.md">English</a></p>
-
 # Include 0.9.1
 
-Inhalt von geteilten Seiten einbinden.
+Inhalt von geteilten Seiten einbinden. Entwickelt von steffen Schultz.
 
 <p align="center"><img src="screenshot.png" alt="Bildschirmfoto"></p>
 
@@ -49,6 +47,4 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 [include profile-datenstrom]
 ```
 
-## Entwickler
-
-Steffen Schultz. [Hilfe finden](https://datenstrom.se/de/yellow/help/).
+Hast du Fragen? [Hilfe finden](https://datenstrom.se/de/yellow/help/).

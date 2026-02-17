@@ -12,10 +12,9 @@ Include content from shared pages. Developed by Steffen Schultz.
 
 Create a `[include]` shortcut. 
 
-The following arguments are available, all but the first argument are optional:
+The following mandatory argument is available:
 
 `Slug` = URL slug of shared page  
-`Style` = shared page style  
 
 ## Examples
 

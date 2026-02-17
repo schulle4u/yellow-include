@@ -2,7 +2,7 @@
 // Include extension, https://github.com/schulle4u/yellow-include
 
 class YellowInclude {
-    const VERSION = "0.9.1";
+    const VERSION = "0.9.2";
     public $yellow;            //access to API
     
     // Handle initialisation
@@ -14,11 +14,8 @@ class YellowInclude {
     public function onParseContentElement($page, $name, $text, $attributes, $type) {
         $output = null;
         if ($name=="include" && ($type=="block" || $type=="inline")) {
-            list($slug, $style) = $this->yellow->toolbox->getTextArguments($text);
-            if (is_string_empty($style)) $style = $name;
-            $output .= "<div class=\"".htmlspecialchars($style)."\">\n";
-            $output .= $this->yellow->page->getPage($slug)->getContentHtml();
-            $output .= "</div>\n";
+            list($slug) = $this->yellow->toolbox->getTextArguments($text);
+            $output = $this->yellow->page->getPage($slug)->getContentHtml();
         }
         return $output;
     }

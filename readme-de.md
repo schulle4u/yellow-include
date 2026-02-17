@@ -12,10 +12,9 @@ Inhalt von geteilten Seiten einbinden. Entwickelt von steffen Schultz.
 
 Erstelle eine `[include]`-Abkürzung. 
 
-Die folgenden Argumente sind verfügbar, mit Ausnahme des ersten Arguments sind alle Angaben optional:
+Das folgende obligatorische Argument ist verfügbar:
 
 `Slug` = URL-Slug der einzubindenden Seite  
-`Style` = Anzeigestil der geteilten Seite`  
 
 ## Beispiele
 

@@ -1,8 +1,8 @@
-# Include 0.9.1
+# Include 0.9.2
 
 Inhalt von geteilten Seiten einbinden. Entwickelt von steffen Schultz.
 
-<p align="center"><img src="screenshot.png" alt="Bildschirmfoto"></p>
+<p align="center"><img src="screenshot.png" alt="Bildschirmfoto" /></p>
 
 ## Wie man eine Erweiterung installiert
 

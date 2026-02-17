@@ -1,8 +1,8 @@
-# Include 0.9.1
+# Include 0.9.2
 
 Include content from shared pages. Developed by Steffen Schultz.
 
-<p align="center"><img src="screenshot.png" alt="Screenshot"></p>
+<p align="center"><img src="screenshot.png" alt="Screenshot" /></p>
 
 ## How to install an extension
 

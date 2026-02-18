@@ -14,8 +14,8 @@ class YellowInclude {
     public function onParseContentElement($page, $name, $text, $attributes, $type) {
         $output = null;
         if ($name=="include" && ($type=="block" || $type=="inline")) {
-            list($slug) = $this->yellow->toolbox->getTextArguments($text);
-            $output = $this->yellow->page->getPage($slug)->getContentHtml();
+            list($name) = $this->yellow->toolbox->getTextArguments($text);
+            $output = $this->yellow->page->getPage($name)->getContentHtml();
         }
         return $output;
     }

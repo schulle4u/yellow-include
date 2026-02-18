@@ -14,22 +14,11 @@ Create a `[include]` shortcut.
 
 The following mandatory argument is available:
 
-`Slug` = URL slug of shared page  
+`Name` = Name of shared page  
 
 ## Examples
 
-Here is an example page `content/shared/profile-datenstrom.md`: 
-
-```
----
-Title: profile-datenstrom
----
-## About Datenstrom
-
-Datenstrom is a technology manufacturer from Sweden. [Learn more](https://datenstrom.se). 
-```
-
-Example blog page with included author profile:
+Here is an example blog page with included author profile:
 
 ```
 ---
@@ -44,6 +33,17 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna pizza. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 [include profile-datenstrom]
+```
+
+Here is an example page `content/shared/profile-datenstrom.md`: 
+
+```
+---
+Title: profile-datenstrom
+---
+## About Datenstrom
+
+Datenstrom is a technology manufacturer from Sweden. [Learn more](https://datenstrom.se). 
 ```
 
 Do you have questions? [Get help](https://datenstrom.se/yellow/help/).

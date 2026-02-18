@@ -8,7 +8,7 @@ Geteilte Seiten einbinden. Entwickelt von Steffen Schultz.
 
 [ZIP-Datei herunterladen](https://github.com/schulle4u/yellow-include/archive/refs/heads/main.zip) und in dein `system/extensions`-Verzeichnis kopieren. [Weitere Informationen zu Erweiterungen](https://github.com/annaesvensson/yellow-update/tree/main/readme-de.md).
 
-## Wie man geteilte Seiteninhalte einbindet
+## Wie man geteilte Seiten einbindet
 
 Erstelle eine `[include]`-Abkürzung. 
 

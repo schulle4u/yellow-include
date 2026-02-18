@@ -8,7 +8,7 @@ Include shared pages. Developed by Steffen Schultz.
 
 [Download ZIP file](https://github.com/schulle4u/yellow-include/archive/refs/heads/main.zip) and copy it into your `system/extensions` folder. [Learn more about extensions](https://github.com/annaesvensson/yellow-update).
 
-## How to include shared page content
+## How to include shared pages
 
 Create a `[include]` shortcut. 
 

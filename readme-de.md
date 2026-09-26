@@ -1,4 +1,4 @@
-# Include 0.9.2
+# Include 1.0.1
 
 Geteilte Seiten einbinden. Entwickelt von Steffen Schultz.
 
